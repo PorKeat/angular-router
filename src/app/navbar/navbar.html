@@ -10,14 +10,14 @@
       <div class="flex items-center space-x-8">
         <a routerLink="" class="text-gray-300 hover:text-white transition-colors">Home</a>
         <a routerLink="product" class="text-gray-300 hover:text-white transition-colors">Product</a>
-        <a routerLink="#" class="text-gray-300 hover:text-white transition-colors">Contact</a>
-        <a routerLink="#" class="text-gray-300 hover:text-white transition-colors">About</a>
+        <a routerLink="contact" class="text-gray-300 hover:text-white transition-colors">Contact</a>
+        <a routerLink="about" class="text-gray-300 hover:text-white transition-colors">About</a>
       </div>
 
       <div class="flex items-center">
         <a
-          href="#"
-          class="flex items-center space-x-2 text-gray-300 hover:text-white transition-colors"
+          routerLink="cart"
+          class="relative flex items-center space-x-2 text-gray-300 hover:text-white transition-colors"
         >
           <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path
@@ -28,6 +28,9 @@
             />
           </svg>
           <span>Cart</span>
+          <span class="absolute -top-2 -right-2 bg-red-500 text-white rounded-full text-xs px-1">
+            {{ cartService.getCartItemCount() }}
+          </span>
         </a>
       </div>
     </div>

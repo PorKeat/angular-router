@@ -1,45 +1,29 @@
-<section
-  class="relative min-h-screen flex items-center bg-gradient-to-br from-white via-gray-50 to-gray-100 overflow-hidden"
->
-  <!-- Animated Background Elements -->
-  <div class="absolute inset-0">
-    <div
-      class="absolute top-20 left-20 w-72 h-72 bg-blue-200 bg-opacity-30 rounded-full blur-3xl float-animation"
-    ></div>
-    <div
-      class="absolute bottom-20 right-20 w-96 h-96 bg-purple-200 bg-opacity-20 rounded-full blur-3xl float-animation"
-      style="animation-delay: -1s"
-    ></div>
-    <div
-      class="absolute top-1/2 left-1/2 w-80 h-80 bg-pink-200 bg-opacity-25 rounded-full blur-3xl float-animation"
-      style="animation-delay: -2s"
-    ></div>
-  </div>
+<section class="relative min-h-screen flex items-center bg-white overflow-hidden">
+
 
   <div class="max-w-7xl mx-auto px-6 relative z-10">
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
       <div class="space-y-8">
         <div class="space-y-4">
           <h1 class="text-7xl lg:text-8xl font-black leading-tight">
-            <span class="gradient-text">Welcome to</span>
+            <span class="text-gray-900">Welcome to</span>
             <br />
-            <span class="text-gray-900">Daffo</span>
+            <span class="text-black">Daffo</span>
           </h1>
-          <p class="text-2xl text-gray-600 leading-relaxed max-w-lg">
-            Experience the future of shopping. Curated products, cutting-edge design, unmatched
+          <p class="text-2xl text-gray-700 leading-relaxed max-w-lg">
+            Experience the future of shopping. Curated products, minimalistic design, unmatched
             quality.
           </p>
         </div>
 
         <div class="flex flex-col sm:flex-row gap-6">
           <button
-            class="group relative px-8 py-4 bg-gray-900 text-white font-bold text-lg rounded-2xl overflow-hidden transition-all duration-300 hover:scale-105"
+            class="relative px-8 py-4 bg-black text-white font-bold text-lg rounded-2xl overflow-hidden transition-all duration-300 hover:scale-105"
           >
-            <div class="absolute inset-0 shimmer-effect opacity-0 group-hover:opacity-100"></div>
             <span class="relative">Explore Collection</span>
           </button>
           <button
-            class="px-8 py-4 glass-effect text-gray-900 font-bold text-lg rounded-2xl hover:bg-white hover:bg-opacity-90 transition-all duration-300"
+            class="px-8 py-4 border border-black text-black font-bold text-lg rounded-2xl hover:bg-gray-100 transition-all duration-300"
           >
             Watch Story
           </button>
@@ -48,324 +32,113 @@
         <!-- Stats -->
         <div class="grid grid-cols-3 gap-8 pt-8">
           <div class="text-center">
-            <div class="text-3xl font-bold text-gray-900">50K+</div>
+            <div class="text-3xl font-bold text-black">50K+</div>
             <div class="text-gray-600">Happy Customers</div>
           </div>
           <div class="text-center">
-            <div class="text-3xl font-bold text-gray-900">1K+</div>
+            <div class="text-3xl font-bold text-black">1K+</div>
             <div class="text-gray-600">Products</div>
           </div>
           <div class="text-center">
-            <div class="text-3xl font-bold text-gray-900">99%</div>
+            <div class="text-3xl font-bold text-black">99%</div>
             <div class="text-gray-600">Satisfaction</div>
           </div>
         </div>
       </div>
 
       <!-- Hero Visual -->
-      <div class="relative">
-        <div class="glass-effect rounded-3xl p-12 glow-animation">
-          <div class="text-center space-y-6">
-            <div class="text-8xl mb-8 float-animation">🛍️</div>
-            <h3 class="text-3xl font-bold text-gray-900">Premium Shopping</h3>
-            <p class="text-gray-600 text-lg">Free shipping worldwide on orders over $100</p>
-            <div class="inline-flex items-center space-x-2 bg-green-100 px-6 py-3 rounded-full">
-              <span class="w-3 h-3 bg-green-500 rounded-full animate-pulse"></span>
-              <span class="text-green-800 font-medium">Free Delivery Active</span>
-            </div>
-          </div>
+      <div class="relative text-center space-y-6">
+        <div class="text-8xl mb-8 animate-float">🛍️</div>
+        <h3 class="text-3xl font-bold text-black">Premium Shopping</h3>
+        <p class="text-gray-700 text-lg">Free shipping worldwide on orders over $100</p>
+        <div class="inline-flex items-center space-x-2 bg-gray-200 px-6 py-3 rounded-full">
+          <span class="w-3 h-3 bg-black rounded-full animate-pulse"></span>
+          <span class="text-gray-800 font-medium">Free Delivery Active</span>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- Featured Categories with Modern Cards -->
+<!-- Featured Categories -->
 <section class="py-24 bg-white">
   <div class="max-w-7xl mx-auto px-6">
     <div class="text-center mb-16">
-      <h2 class="text-5xl font-bold text-gray-900 mb-6">Shop by Category</h2>
-      <p class="text-xl text-gray-600 max-w-2xl mx-auto">
-        Discover our carefully curated collections designed for the modern lifestyle
+      <h2 class="text-5xl font-bold text-black mb-6">Shop by Category</h2>
+      <p class="text-xl text-gray-700 max-w-2xl mx-auto">
+        Discover our curated collections designed for minimalistic lifestyle
       </p>
     </div>
 
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+      <!-- Example Category Card -->
       <div
-        class="group relative glass-effect rounded-3xl p-8 hover:bg-white hover:bg-opacity-90 transition-all duration-500 cursor-pointer overflow-hidden"
+        class="group relative border border-black rounded-3xl p-8 hover:bg-gray-100 transition-all duration-500 cursor-pointer overflow-hidden"
       >
-        <div
-          class="absolute inset-0 bg-gradient-to-br from-blue-100 to-purple-100 opacity-0 group-hover:opacity-50 transition-opacity duration-500"
-        ></div>
         <div class="relative z-10 text-center space-y-4">
           <div
             class="text-6xl mb-6 transform group-hover:scale-110 transition-transform duration-300"
           >
             📱
           </div>
-          <h3 class="text-2xl font-bold text-gray-900">Electronics</h3>
-          <p class="text-gray-600">Latest tech & gadgets</p>
+          <h3 class="text-2xl font-bold text-black">Electronics</h3>
+          <p class="text-gray-700">Latest tech & gadgets</p>
           <div class="pt-4">
-            <span class="inline-flex items-center text-gray-900 font-medium"> Explore → </span>
+            <span class="inline-flex items-center text-black font-medium"> Explore → </span>
           </div>
         </div>
       </div>
 
       <div
-        class="group relative glass-effect rounded-3xl p-8 hover:bg-white hover:bg-opacity-90 transition-all duration-500 cursor-pointer overflow-hidden"
+        class="group relative border border-black rounded-3xl p-8 hover:bg-gray-100 transition-all duration-500 cursor-pointer overflow-hidden"
       >
-        <div
-          class="absolute inset-0 bg-gradient-to-br from-pink-100 to-red-100 opacity-0 group-hover:opacity-50 transition-opacity duration-500"
-        ></div>
         <div class="relative z-10 text-center space-y-4">
           <div
             class="text-6xl mb-6 transform group-hover:scale-110 transition-transform duration-300"
           >
             👕
           </div>
-          <h3 class="text-2xl font-bold text-gray-900">Fashion</h3>
-          <p class="text-gray-600">Trendy styles & accessories</p>
+          <h3 class="text-2xl font-bold text-black">Fashion</h3>
+          <p class="text-gray-700">Trendy styles & accessories</p>
           <div class="pt-4">
-            <span class="inline-flex items-center text-gray-900 font-medium"> Explore → </span>
+            <span class="inline-flex items-center text-black font-medium"> Explore → </span>
           </div>
         </div>
       </div>
 
       <div
-        class="group relative glass-effect rounded-3xl p-8 hover:bg-white hover:bg-opacity-90 transition-all duration-500 cursor-pointer overflow-hidden"
+        class="group relative border border-black rounded-3xl p-8 hover:bg-gray-100 transition-all duration-500 cursor-pointer overflow-hidden"
       >
-        <div
-          class="absolute inset-0 bg-gradient-to-br from-green-100 to-teal-100 opacity-0 group-hover:opacity-50 transition-opacity duration-500"
-        ></div>
         <div class="relative z-10 text-center space-y-4">
           <div
             class="text-6xl mb-6 transform group-hover:scale-110 transition-transform duration-300"
           >
             🏠
           </div>
-          <h3 class="text-2xl font-bold text-gray-900">Home & Living</h3>
-          <p class="text-gray-600">Modern home essentials</p>
+          <h3 class="text-2xl font-bold text-black">Home & Living</h3>
+          <p class="text-gray-700">Modern home essentials</p>
           <div class="pt-4">
-            <span class="inline-flex items-center text-gray-900 font-medium"> Explore → </span>
+            <span class="inline-flex items-center text-black font-medium"> Explore → </span>
           </div>
         </div>
       </div>
 
       <div
-        class="group relative glass-effect rounded-3xl p-8 hover:bg-white hover:bg-opacity-90 transition-all duration-500 cursor-pointer overflow-hidden"
+        class="group relative border border-black rounded-3xl p-8 hover:bg-gray-100 transition-all duration-500 cursor-pointer overflow-hidden"
       >
-        <div
-          class="absolute inset-0 bg-gradient-to-br from-orange-100 to-yellow-100 opacity-0 group-hover:opacity-50 transition-opacity duration-500"
-        ></div>
         <div class="relative z-10 text-center space-y-4">
           <div
             class="text-6xl mb-6 transform group-hover:scale-110 transition-transform duration-300"
           >
             ⚽
           </div>
-          <h3 class="text-2xl font-bold text-gray-900">Sports</h3>
-          <p class="text-gray-600">Premium athletic gear</p>
+          <h3 class="text-2xl font-bold text-black">Sports</h3>
+          <p class="text-gray-700">Premium athletic gear</p>
           <div class="pt-4">
-            <span class="inline-flex items-center text-gray-900 font-medium"> Explore → </span>
+            <span class="inline-flex items-center text-black font-medium"> Explore → </span>
           </div>
         </div>
       </div>
-    </div>
-  </div>
-</section>
-
-<!-- Featured Products with Advanced Styling -->
-<section class="py-24 bg-gray-50">
-  <div class="max-w-7xl mx-auto px-6">
-    <div class="text-center mb-16">
-      <h2 class="text-5xl font-bold text-gray-900 mb-6">Featured Products</h2>
-      <p class="text-xl text-gray-600 max-w-2xl mx-auto">
-        Handpicked products that define quality and innovation
-      </p>
-    </div>
-
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
-      <!-- Product 1 -->
-      <div class="product-card bg-white rounded-3xl overflow-hidden group shadow-lg">
-        <div
-          class="relative h-64 bg-gradient-to-br from-gray-100 to-gray-200 flex items-center justify-center overflow-hidden"
-        >
-          <div
-            class="absolute inset-0 bg-gradient-to-br from-blue-100 to-purple-100 opacity-0 group-hover:opacity-60 transition-opacity duration-500"
-          ></div>
-          <span class="text-8xl transform group-hover:scale-110 transition-transform duration-500"
-            >📱</span
-          >
-          <div
-            class="absolute top-4 right-4 bg-blue-500 px-3 py-1 rounded-full text-white text-sm font-medium"
-          >
-            Best Seller
-          </div>
-        </div>
-        <div class="p-8 space-y-4">
-          <h3 class="text-2xl font-bold text-gray-900">iPhone 15 Pro Max</h3>
-          <p class="text-gray-600">
-            Latest flagship with titanium design and advanced camera system
-          </p>
-          <div class="flex items-center justify-between pt-4">
-            <div class="space-y-1">
-              <div class="text-3xl font-bold text-gray-900">$1,199</div>
-              <div class="text-sm text-gray-400 line-through">$1,299</div>
-            </div>
-            <button
-              class="bg-gray-900 text-white px-6 py-3 rounded-xl font-bold hover:bg-gray-800 transform hover:scale-105 transition-all duration-300"
-            >
-              Add to Cart
-            </button>
-          </div>
-        </div>
-      </div>
-
-      <!-- Product 2 -->
-      <div class="product-card bg-white rounded-3xl overflow-hidden group shadow-lg">
-        <div
-          class="relative h-64 bg-gradient-to-br from-gray-100 to-gray-200 flex items-center justify-center overflow-hidden"
-        >
-          <div
-            class="absolute inset-0 bg-gradient-to-br from-pink-100 to-red-100 opacity-0 group-hover:opacity-60 transition-opacity duration-500"
-          ></div>
-          <span class="text-8xl transform group-hover:scale-110 transition-transform duration-500"
-            >👟</span
-          >
-          <div
-            class="absolute top-4 right-4 bg-red-500 px-3 py-1 rounded-full text-white text-sm font-medium"
-          >
-            Limited
-          </div>
-        </div>
-        <div class="p-8 space-y-4">
-          <h3 class="text-2xl font-bold text-gray-900">Nike Air Max</h3>
-          <p class="text-gray-600">Premium comfort with revolutionary air cushioning technology</p>
-          <div class="flex items-center justify-between pt-4">
-            <div class="space-y-1">
-              <div class="text-3xl font-bold text-gray-900">$189</div>
-              <div class="text-sm text-gray-400 line-through">$220</div>
-            </div>
-            <button
-              class="bg-gray-900 text-white px-6 py-3 rounded-xl font-bold hover:bg-gray-800 transform hover:scale-105 transition-all duration-300"
-            >
-              Add to Cart
-            </button>
-          </div>
-        </div>
-      </div>
-
-      <!-- Product 3 -->
-      <div class="product-card bg-white rounded-3xl overflow-hidden group shadow-lg">
-        <div
-          class="relative h-64 bg-gradient-to-br from-gray-100 to-gray-200 flex items-center justify-center overflow-hidden"
-        >
-          <div
-            class="absolute inset-0 bg-gradient-to-br from-purple-100 to-indigo-100 opacity-0 group-hover:opacity-60 transition-opacity duration-500"
-          ></div>
-          <span class="text-8xl transform group-hover:scale-110 transition-transform duration-500"
-            >🎧</span
-          >
-          <div
-            class="absolute top-4 right-4 bg-green-500 px-3 py-1 rounded-full text-white text-sm font-medium"
-          >
-            New
-          </div>
-        </div>
-        <div class="p-8 space-y-4">
-          <h3 class="text-2xl font-bold text-gray-900">AirPods Pro</h3>
-          <p class="text-gray-600">Studio-quality sound with active noise cancellation</p>
-          <div class="flex items-center justify-between pt-4">
-            <div class="space-y-1">
-              <div class="text-3xl font-bold text-gray-900">$249</div>
-              <div class="text-sm text-gray-400 line-through">$279</div>
-            </div>
-            <button
-              class="bg-gray-900 text-white px-6 py-3 rounded-xl font-bold hover:bg-gray-800 transform hover:scale-105 transition-all duration-300"
-            >
-              Add to Cart
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- Premium Features Section -->
-<section class="py-24 bg-white">
-  <div class="max-w-7xl mx-auto px-6">
-    <div class="text-center mb-16">
-      <h2 class="text-5xl font-bold text-gray-900 mb-6">The Daffo Difference</h2>
-      <p class="text-xl text-gray-600 max-w-2xl mx-auto">
-        Experience premium shopping with unmatched service and quality
-      </p>
-    </div>
-
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
-      <div class="text-center group">
-        <div
-          class="glass-effect w-24 h-24 rounded-3xl flex items-center justify-center mx-auto mb-8 group-hover:scale-110 transition-transform duration-300"
-        >
-          <span class="text-4xl">🚀</span>
-        </div>
-        <h3 class="text-2xl font-bold text-gray-900 mb-4">Lightning Fast Delivery</h3>
-        <p class="text-gray-600 text-lg leading-relaxed">
-          Express shipping options available. Most orders delivered within 24-48 hours.
-        </p>
-      </div>
-
-      <div class="text-center group">
-        <div
-          class="glass-effect w-24 h-24 rounded-3xl flex items-center justify-center mx-auto mb-8 group-hover:scale-110 transition-transform duration-300"
-        >
-          <span class="text-4xl">🛡️</span>
-        </div>
-        <h3 class="text-2xl font-bold text-gray-900 mb-4">Premium Security</h3>
-        <p class="text-gray-600 text-lg leading-relaxed">
-          Bank-level encryption and secure payment processing for complete peace of mind.
-        </p>
-      </div>
-
-      <div class="text-center group">
-        <div
-          class="glass-effect w-24 h-24 rounded-3xl flex items-center justify-center mx-auto mb-8 group-hover:scale-110 transition-transform duration-300"
-        >
-          <span class="text-4xl">💎</span>
-        </div>
-        <h3 class="text-2xl font-bold text-gray-900 mb-4">Quality Guarantee</h3>
-        <p class="text-gray-600 text-lg leading-relaxed">
-          100% satisfaction guarantee with hassle-free returns and premium customer support.
-        </p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- Newsletter with Modern Design -->
-<section class="py-24 bg-gray-50">
-  <div class="max-w-4xl mx-auto px-6 text-center">
-    <div class="glass-effect rounded-3xl p-12 space-y-8">
-      <h2 class="text-4xl font-bold text-gray-900 mb-4">Stay Ahead of Trends</h2>
-      <p class="text-xl text-gray-600 max-w-2xl mx-auto">
-        Join our exclusive community for early access to new products, special offers, and style
-        inspiration.
-      </p>
-
-      <div class="flex flex-col sm:flex-row gap-4 max-w-lg mx-auto">
-        <input
-          type="email"
-          placeholder="Enter your email address"
-          class="flex-1 px-6 py-4 bg-white border border-gray-200 rounded-xl text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-gray-900 focus:border-transparent transition-all duration-300"
-        />
-        <button
-          class="bg-gray-900 text-white px-8 py-4 rounded-xl font-bold hover:bg-gray-800 transform hover:scale-105 transition-all duration-300 whitespace-nowrap"
-        >
-          Subscribe Now
-        </button>
-      </div>
-
-      <p class="text-sm text-gray-500">Join 50,000+ subscribers • No spam, unsubscribe anytime</p>
     </div>
   </div>
 </section>
